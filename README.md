@@ -8,8 +8,8 @@ The dataset used for this project is sourced from the Fish4Knowledge repository,
 
 Dataset used with this project can be downloaded from here: [Downloadable data from Fish4Knowledge](https://homepages.inf.ed.ac.uk/rbf/Fish4Knowledge/GROUNDTRUTH/RECOG/)
 
-## API
+## Web Application (Flask)
 
-The API is still under development and are not yet integrated with the main src code. The main src-code supports testing of a single image such that the snn model can predict based on best similarity score. 
+The web applicattion is still under development and are not yet integrated with the main src code. The main src-code supports testing of a single image such that the snn model can predict based on best similarity score. 
 
 API support testing on a pretrained snn-model by its own and do some analyzing of similarity score (distance).
