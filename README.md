@@ -31,8 +31,8 @@ The dataset for this project is sourced from the Fish4Knowledge repository. It i
 
 ### Dataset Links
 
-Fish4Knowledge Homepage: [Homepage Fish4Knowledge](https://homepages.inf.ed.ac.uk/rbf/Fish4Knowledge/)
-Download Dataset: [Fish4Knowledge Dataset](https://homepages.inf.ed.ac.uk/rbf/Fish4Knowledge/GROUNDTRUTH/RECOG/)
+* Fish4Knowledge Homepage: [Homepage Fish4Knowledge](https://homepages.inf.ed.ac.uk/rbf/Fish4Knowledge/)
+* Download Dataset: [Fish4Knowledge Dataset](https://homepages.inf.ed.ac.uk/rbf/Fish4Knowledge/GROUNDTRUTH/RECOG/)
 
 ## Web Application (Flask)
 
