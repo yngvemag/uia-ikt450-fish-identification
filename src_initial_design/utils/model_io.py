@@ -8,6 +8,9 @@ import constants
 def save_model(model: nn.Module,
                name: str):
     try:
+        if not os.path.exists(constants.SAVED_MODELS_FOLDER):
+            os.makedirs(constants.SAVED_MODELS_FOLDER)
+
         save_path = os.path.join(constants.SAVED_MODELS_FOLDER, name)
         torch.save(model.state_dict(), save_path)
         print(f"Model saved to {save_path}")

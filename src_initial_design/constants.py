@@ -1,5 +1,5 @@
-IMAGE_BASE_FOLDER = '../data_source_min/images'
-MASK_BASE_FOLDER = '../data_source_min/masks'
+IMAGE_BASE_FOLDER = '../data_source_demo/images'
+MASK_BASE_FOLDER = '../data_source_demo/masks'
 SAVED_MODELS_FOLDER = '../saved_models'
 
 TEST_SIZE = 0.2
@@ -18,7 +18,7 @@ RCNN_CONFIDENCE_THRESHOLD = 0.5   #  Minimum confidence score required for a det
 RCNN_LEARNING_RATE = 0.0001
 
 # In debug/test we can visualize the object detected in images
-VISUALIZE_PREDICTIONS = True
+VISUALIZE_PREDICTIONS = False
 SAVE_MODELS = False
 
 
