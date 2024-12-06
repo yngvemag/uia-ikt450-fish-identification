@@ -1,19 +1,58 @@
-# Siamese Neural Network - Fish identification project
+# Siamese Neural Network - Fish Identification Project
+
+## Overview
+
+This project focuses on identifying fish species using a Siamese Neural Network (SNN). The network is designed to compare pairs of images and determine their similarity based on learned feature representations. The model is trained on a carefully curated dataset to distinguish between 23 different fish species.
 
 ## src
 
-This is the main source folder for this project. It contains all code needed to test and run this project. In addition there are also i tiny dataset of images that can be used to run and test the code.
+The src folder contains the main source code for the project. It includes all the scripts required for training, testing, and running the Siamese Neural Network.
 
-## Dataset used with this project
+Key features:
 
-The dataset used for this project is sourced from the Fish4Knowledge repository, a comprehensive collection of underwater fish images acquired from live video streams. The dataset includes 27,370 manually labeled fish images organized into 23 distinct clusters, with each cluster representing a unique fish species. The grouping is based on morphological characteristics such as the presence or absence of specific fins, shapes, or other anatomical features, as defined by marine biologists.
+* Contains a small sample dataset to test the code and verify functionality.
+* Modular design with clearly separated components for data handling, model training, evaluation, and utilities.
+* Well-documented scripts for easy understanding and customization.
 
-[Homepage Fish4Knowledge](https://homepages.inf.ed.ac.uk/rbf/Fish4Knowledge/)
+## Dataset
 
-Dataset used with this project can be downloaded from here: [Downloadable data from Fish4Knowledge](https://homepages.inf.ed.ac.uk/rbf/Fish4Knowledge/GROUNDTRUTH/RECOG/)
+### Source
+
+The dataset for this project is sourced from the Fish4Knowledge repository. It is a comprehensive dataset of underwater fish images acquired from live video streams. The dataset includes:
+
+* 27,370 manually labeled fish images.
+* 23 unique clusters, each representing a specific fish species.
+* Images grouped based on morphological features such as fin shapes, sizes, and anatomical distinctions, as defined by marine biologists.
+
+### Dataset Characteristics
+
+* The dataset exhibits class imbalance, with some fish species being significantly more frequent than others.
+* Images are captured in real-world underwater conditions, introducing variability in lighting, orientation, and movement.
+
+### Dataset Links
+
+Fish4Knowledge Homepage: [Homepage Fish4Knowledge](https://homepages.inf.ed.ac.uk/rbf/Fish4Knowledge/)
+Download Dataset: [Fish4Knowledge Dataset](https://homepages.inf.ed.ac.uk/rbf/Fish4Knowledge/GROUNDTRUTH/RECOG/)
 
 ## Web Application (Flask)
 
-The web applicattion is still under development and are not yet integrated with the main src code. The main src-code supports testing of a single image such that the snn model can predict based on best similarity score. 
+### Status
 
-API support testing on a pretrained snn-model by its own and do some analyzing of similarity score (distance).
+The web application is currently under development and is not yet integrated with the main src code.
+
+### Features
+
+* Web application for Testing: Supports testing of a single image using a pretrained Siamese Neural Network model.
+* Similarity Analysis: The API evaluates the similarity score (distance) between the input image and reference images, providing the best match based on the SNN's predictions.
+
+### Planned Features
+
+* Full integration with the main codebase for seamless testing and evaluation.
+* Enhanced visualization and interactive analysis of similarity scores and predictions.
+* Support for multi-image detection and classification using a combination of object detection and the SNN.
+
+## How to Use
+
+* Clone the repository and navigate to the src folder.
+* Use the provided sample dataset for testing, or download the full Fish4Knowledge dataset for complete functionality.
+* Run the training or testing scripts to evaluate the SNN on fish species identification.
